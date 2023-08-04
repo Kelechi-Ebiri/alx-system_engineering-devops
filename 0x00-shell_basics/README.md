@@ -1,1 +1,2 @@
-This directory is about lerning Shell basics
+# Shell Basics
+This directory is about learning shell basics
