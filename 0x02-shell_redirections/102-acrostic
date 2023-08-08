@@ -1,0 +1,8 @@
+#!/bin/bash
+decoded=""
+while IFS= read -r line; do
+    first_char=${line:0:1}
+    decoded="${decoded}${first_char}"
+done
+
+echo "$decoded"
