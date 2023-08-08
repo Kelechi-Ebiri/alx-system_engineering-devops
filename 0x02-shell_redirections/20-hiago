@@ -1,0 +1,6 @@
+#!/bin/bash
+while IFS= read -r line; do
+    cleaned_line="${line//c}"
+    cleaned_line="${cleaned_line//C}"
+    echo "$cleaned_line"
+done
