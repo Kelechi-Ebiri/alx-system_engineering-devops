@@ -1,0 +1,6 @@
+#!/bin/bash
+while IFS= read -r line; do
+    replaced_line="${line//A/Z}"
+    replaced_line="${replaced_line//c/e}"
+    echo "$replaced_line"
+done
